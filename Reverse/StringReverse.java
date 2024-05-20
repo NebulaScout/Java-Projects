@@ -13,6 +13,8 @@ public class StringReverse {
         // Convert the string to an array
         char[] input = userInput.toCharArray();
 
+        System.out.println("\nInput string: " + userInput);
+        System.out.print("Reversed String: ");
         // Traverse the array
         for(int i = input.length; i > 0; i--) {
             System.out.print(input[i -1]); // print output in reverse
