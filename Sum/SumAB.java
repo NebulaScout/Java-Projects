@@ -5,8 +5,6 @@ package Sum;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-// TODO: use exceptions to handle a double and float or method overloading
-
 
 public class SumAB {
     private int numA;
